@@ -4,11 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Mood-Based Quote Generator</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
+    <header>
+        <h1>Mood-Based Quote Generator</h1>
+    </header>
+    <div class="color-lines">
+        <div class="line red"></div>
+        <div class="line blue"></div>
+        <div class="line green"></div>
+        <div class="line purple"></div>
+        <div class="line yellow"></div>
+        <div class="line orange"></div>
+    </div>
+    <div class="container">
+        <aside class="sidebar-left">
+            <!-- Left sidebar content -->
+            <p>Left Sidebar</p>
+        </aside>
+        <main>
+            <div id="quoteSection">
+                <input type="text" id="moodInput" placeholder="Type your mood (e.g., happy, sad, motivated)">
+                <button id="generateQuoteBtn">Generate Quote</button>
+                <div id="quoteBox" class="quote-box">
+                    <p id="quoteText">Enter your mood and click the button to get a quote!</p>
+                </div>
+            </div>
+        </main>
+        <aside class="sidebar-right">
+            <!-- Right sidebar content -->
+            <p>Right Sidebar</p>
+        </aside>
+    </div>
+    <footer>
+        <p>&copy; 2024 PinkDragon</p>
+    </footer>
 <script src="./index.js"></script>
 </body>
 
