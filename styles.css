@@ -131,7 +131,7 @@ body {
     text-align: center;
 }
 
-#generateQuoteBtn {
+#submittBtn {
     background-color: black;
     color: white;
     border-radius: 25px;
@@ -142,11 +142,11 @@ body {
     margin-top: 10px;
   }
 
-#generateQuoteBtn:hover {
+#submitt:hover {
     background-color: black;
 }
 
-#moodInput {
+#nameInput {
     padding: 10px 20px;
     width: 70%;
     border: 2px solid black;
@@ -155,5 +155,23 @@ body {
     margin-top: 20px;
     margin-bottom: 10px;
 } 
+#emailInput {
+    padding: 10px 20px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+#textInput {
+    padding: 10px 20px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
 
 

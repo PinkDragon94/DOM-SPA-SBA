@@ -20,7 +20,7 @@ const quotesByMood = {
 document.getElementById('generateQuoteBtn').addEventListener('click', function() {
     const mood = document.getElementById('moodInput').value.toLowerCase().trim();
     const quotes = quotesByMood[mood];
-    
+        
     if (quotes) {
         const randomIndex = Math.floor(Math.random() * quotes.length);
         document.getElementById('quoteText').textContent = quotes[randomIndex];
@@ -28,4 +28,8 @@ document.getElementById('generateQuoteBtn').addEventListener('click', function()
         document.getElementById('quoteText').textContent = "Sorry, no quotes found for that mood. Try 'happy', 'sad', or 'motivated'.";
     }
 });
-
+const submittBtn= document.getElementById('submittBtn');
+    document.getElementById('submittBtn').addEventListener('click', function() {
+        submittBtn.innerText ="clicked";
+    });
+    console.log(submittBtn);
