@@ -4,28 +4,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mood-Based Quote Generator</title>
+    <title>Inside Out Quote Generator</title>
     <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
     <header>
         <div class="heading">
-        <h1>Mood-Based Quote Generator</h1>
+        <h1>Inside Out Quote Generator</h1>
     </div>
     </header>
     <div class="color-lines">
-        <div class="line red"></div>
+        <div class="line red"> </div>
         <div class="line blue"></div>
         <div class="line green"></div>
         <div class="line purple"></div>
         <div class="line yellow"></div>
         <div class="line orange"></div>
     </div>
+    <div class="image-gallery">
+        <div><img src="./img/anger.png"  width="200" height="200" alt="anger"></div>
+        <div><img src="./img/sadness.png"  width="200" height="200" alt="saddness"></div>
+        <div><img src="./img/disgust.png"  width="200" height="200" alt="disgust"></div>
+        <div><img src="./img/fear.png"  width="200" height="200" alt="fear"></div>
+        <div> <img src="./img/joy.png"  width="200" height="200" alt="joy"></div>
+        <div><img src="./img/antxity.png"  width="200" height="200" alt="anxiety"></div>
+
+
     <div class="container">
                <main>
             <div id="quoteSection">
-                <input type="text" id="moodInput" placeholder="Type your mood (happy, sad, motivated)">
+                <input type="text" id="moodInput" placeholder="Type your mood (joy, sad, fear)">
                 <button id="generateQuoteBtn">Generate Quote</button>
                 <div id="quoteBox" class="quote-box">
                     <p id="quoteText">Enter your mood and click the button to get a quote!</p>
@@ -40,7 +49,7 @@
                 <h2> Subscribe for Daily Quote</h2>
              <input type="Name" id="nameInput" placeholder="Enter Name Here">
              <input type="Email" id="emailInput" placeholder="Enter Email Here" required>
-             <input type="text" id="textInput" placeholder="mood (e.g., happy, sad, motivated)">
+             <input type="text" id="textInput" placeholder="mood (e.g., joy, sad, fear)">
              <button id="submittBtn" type ="submit">Subscribe</button>
                          </form>
                 </div>
