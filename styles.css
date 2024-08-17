@@ -1,9 +1,6 @@
-html, body {
+*{
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
-    overflow: hidden; /* Prevent scrollbars from appearing due to background */
 }
 
 body {
@@ -24,103 +21,139 @@ body {
     );
     background-size: 100% 100%; /* Ensure background covers the entire area */
 }
+.heading {
+    display: block;
+    margin-top: 35px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+.container{
+  
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid black;
+    padding: 20px;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
 
 .content {
-    position: relative;
+    position: center;
     z-index: 1;
     color: white;
     text-align: center;
     padding: 20px;
 }
-
-
-/* body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    align-items: center; /* Center horizontally } */
-
-
-/* header, footer {
-    background-color: #973016;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-} */
-
-.container {
-    display: flex;
-    flex: 1;
-    max-width: 1200px; /* Max width for the container */
-    width: 100%;
-    box-sizing: border-box;
-}
-
-.sidebar-left, .sidebar-right {
-    background-color: #f4f4f4;
-    padding: 20px;
-    width: 200px;
-    box-sizing: border-box;
-}
-
-.main {
-    flex: 1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    background-color: white;
-}
-
 #quoteSection {
     text-align: center;
     width: 100%;
     max-width: 600px;
-}
+ }
 
 .quote-box {
     margin: 20px 0;
     padding: 20px;
+    border-radius: 25px;
     border-left: 5px solid black;
     background-color: #ecf0f1;
     font-style: italic;
+    text-align: center;
 }
 
 #generateQuoteBtn {
     background-color: black;
     color: white;
+    border-radius: 25px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
-    border-radius: 5px;
     font-size: 16px;
     margin-top: 10px;
-}
+  }
 
 #generateQuoteBtn:hover {
     background-color: black;
 }
 
 #moodInput {
-    padding: 10px;
-    width: 100%;
+    padding: 10px 20px;
+    width: 70%;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 25px;
     font-size: 16px;
+    margin-top: 20px;
     margin-bottom: 10px;
+}                                                                 
+
+.footing {
+    padding: 100px 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+.container2{
+    display: block;
+    margin: auto;
+    text-align: center;
+    border-radius: 25px;
+    border: 5px solid black;
+    padding: 20px;
+    max-width: 400px;
+    margin-bottom: 20px;
+    
+    
 }
 
-/* footer {
-    background-color: #973016;
+.content {
+    position: center;
+    z-index: 1;
     color: white;
     text-align: center;
-    padding: 10px;
+    padding: 20px;
+}
+#quoteSection {
+    text-align: center;
     width: 100%;
-} */
+    max-width: 600px;
+ }
 
+.quote-box {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 25px;
+    border-left: 5px solid black;
+    background-color: #ecf0f1;
+    font-style: italic;
+    text-align: center;
+}
 
+#generateQuoteBtn {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+#generateQuoteBtn:hover {
+    background-color: black;
+}
+
+#moodInput {
+    padding: 10px 20px;
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+} 
 
 

@@ -10,7 +10,9 @@
 
 <body>
     <header>
+        <div class="heading">
         <h1>Mood-Based Quote Generator</h1>
+    </div>
     </header>
     <div class="color-lines">
         <div class="line red"></div>
@@ -21,11 +23,7 @@
         <div class="line orange"></div>
     </div>
     <div class="container">
-        <aside class="sidebar-left">
-            <!-- Left sidebar content -->
-            <p>Left Sidebar</p>
-        </aside>
-        <main>
+               <main>
             <div id="quoteSection">
                 <input type="text" id="moodInput" placeholder="Type your mood (e.g., happy, sad, motivated)">
                 <button id="generateQuoteBtn">Generate Quote</button>
@@ -34,13 +32,25 @@
                 </div>
             </div>
         </main>
-        <aside class="sidebar-right">
-            <!-- Right sidebar content -->
-            <p>Right Sidebar</p>
-        </aside>
-    </div>
+           </div>
+           <div class="container2">
+            <main>
+         <div id="quoteSection2">
+            <form id="subscription form">
+                <h2> Subscribe for Daily Quote</h2>
+             <input type="Name" id="moodInput" placeholder="Enter Name Here">
+             <input type="Email" id="moodInput" placeholder="Enter Email Here" required>
+             <input type="text" id="moodInput" placeholder="mood (e.g., happy, sad, motivated)">
+             <button id="generateQuoteBtn" type ="submit">Subscribe</button>
+                         </form>
+                </div>
+         </div>
+     </main>
+        </div>
     <footer>
+        <div class="footing" >
         <p>&copy; 2024 PinkDragon</p>
+    </div>
     </footer>
 <script src="./index.js"></script>
 </body>
