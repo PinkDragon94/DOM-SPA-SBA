@@ -12,12 +12,12 @@ const image = document.querySelectorAll(`.image-gallery`);
 image.forEach(image => {
     image.addEventListener(`mouseover`, function()
 {
-    this.style.transform = `translateY(-10px)`;
+    image.style.transform = `translateY(-20px)`;
 
 });
 image.addEventListener(`mouseout`, function() {
  setTimeout(() => {    
-    this.style.transform = `translateY(0)`;
+    image.style.transform = `translateY(0)`;
 },100);
 
 });
@@ -96,7 +96,7 @@ function validateForm(event) {
 
     if (!isValid) {
         event.preventDefault();
-        alert("Please fill out the form correctly.");
+        alert("Please fill out the form correctly. Must add Name, email and Mood");
     }
 }
 
