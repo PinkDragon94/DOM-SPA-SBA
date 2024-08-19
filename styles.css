@@ -30,15 +30,21 @@ body {
  
  
 .image-gallery {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+    
 }
 
 .image-gallery img {
     width: 100%; 
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
     
 }
-
+   
 .container {
     display: grid;
     grid-template-columns: repeat(2, auto); 

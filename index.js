@@ -8,6 +8,20 @@ const submitBtn = document.querySelector('#submittBtn');
 const nameInput = document.querySelector('#nameInput');
 const emailInput = document.querySelector('#emailInput');
 
+const image = document.querySelectorAll(`.image-gallery`);
+image.forEach(image => {
+    image.addEventListener(`mouseover`, function()
+{
+    this.style.transform = `translateY(-10px)`;
+
+});
+image.addEventListener(`mouseout`, function() {
+ setTimeout(() => {    
+    this.style.transform = `translateY(0)`;
+},100);
+
+});
+});
 
 const moodQuotes = {
     joy: ["Do you ever look at someone and wonder, what is going on inside their head?",
@@ -107,3 +121,5 @@ console.log(`Window Dimensions: ${window.innerWidth}x${window.innerHeight}`);
 
 
 quoteBox.classList.add('initial');
+
+
