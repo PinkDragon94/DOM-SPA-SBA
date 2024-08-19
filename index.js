@@ -85,7 +85,7 @@ function validateForm(event) {
         nameInput.classList.remove('error');
     }
 
-    n
+    
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(emailInput.value.trim())) {
         emailInput.classList.add('error');
@@ -102,8 +102,6 @@ function validateForm(event) {
 
 
 generateQuoteBtn.addEventListener('click', generateQuote);
-
-
 submitBtn.addEventListener('click', validateForm);
 
 
